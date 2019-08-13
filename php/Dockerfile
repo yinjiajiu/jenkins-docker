@@ -1,4 +1,4 @@
-FROM php:7.0-fpm
+FROM php:7.3-fpm
 
 # 注入DNS server
 RUN echo "nameserver 8.8.8.8" >> /etc/resolv.conf && \

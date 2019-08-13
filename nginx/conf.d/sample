@@ -1,7 +1,7 @@
 server {
     listen 80;
 
-    server_name sample.${name}.testdomain.com;
+    server_name tp.${name}.com;
 
     root /app/php/${name}/sample/public;
     index index.html index.htm index.php;
@@ -43,7 +43,7 @@ server {
 server {
     listen 80;
 
-    server_name web.${name}.testdomain.com;
+    server_name web.${name}.com;
 
     root /app/php/${name}/web/public;
     index index.html index.htm index.php;
@@ -85,7 +85,7 @@ server {
 server {
     listen 80;
 
-    server_name service.${name}.testdomain.com;
+    server_name service.${name}.com;
 
     root /app/php/${name}/service/public;
     index index.html index.htm index.php;
