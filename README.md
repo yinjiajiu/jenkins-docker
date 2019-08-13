@@ -197,4 +197,4 @@ ssh apple@{jenkins内网IP} "sh ~/docker-compose/build.sh -u ${BUILD_USER_ID} -m
 
 ## 五、贡献
 
-欢迎提供其他更专业的思路，欢迎提issue、fork；也可以邮件联系：xiongwilee[at]foxmail.com。
+欢迎提供其他更专业的思路，欢迎提issue、fork；也可以邮件联系：1401128990@qq.com。
