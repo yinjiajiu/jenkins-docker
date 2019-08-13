@@ -1,4 +1,4 @@
-# docker-compose-boilerplate
+# jenkins-docker
 
 > **基本特性：**
 > 1. 快捷部署多人nginx+php的开发测试环境，也可以扩展构建其他语言；
@@ -13,21 +13,12 @@
 - [DevOps落地实践：BAT系列：CICD：iPipe vs CCI](https://blog.csdn.net/liumiaocn/article/details/77869653)
 - [阿里 DevOps 转型实践](http://www.infoq.com/cn/presentations/ali-devops-transformation-practice)
 
-大型团队的合作框架下，必须依赖更复杂的DevOps架构（参考：[DevOps详解](http://www.infoq.com/cn/articles/detail-analysis-of-devops)）。但对于成员不多、负责的Web项目工程量也不大的团队，面临的问题肯定也更单纯：
-1. 前后端角色工程解耦，开发环境分离；
-2. 工程师只关注业务逻辑本身，持续集成；
-3. 环境和角色一键创建、一键更新、一键销毁，环境之间不受影响；
-
-即便是只有这些需求，在以往的“开发机”的联调环境里，一旦需要添加开发或者测试人员，或者需要更新nginx的配置，再或者需要更新PHP、Nodejs的版本……对于测试环境的维护来说都是很痛苦的。
-
-## 二、快速开始
-
-**注意：** 当前部署方案仅依赖：`Docker`,`Docker-compose`,`git`
+## 二、开始
 
 ### 1、下载代码
 
 ```
-$ git clone https://github.com/xiongwilee/docker-compose-boilerplate.git
+$ git clone git@github.com:yinjiajiu/jenkins-docker.git
 ```
 
 ### 2、添加测试角色`demo`
